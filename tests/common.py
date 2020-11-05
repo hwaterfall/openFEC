@@ -72,7 +72,7 @@ class ApiBaseTest(BaseTestCase):
                 [
                     'psql',
                     '-f',
-                    'data/migrations/V0039__states_and_zips_data.sql',
+                    'data/migrations/V0000.1__create_roles.sql',
                     TEST_CONN,
                 ],
                 stdout=null,
